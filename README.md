@@ -36,6 +36,7 @@ async def get_environment_variables() -> str:
 ```
 
 > ⚠️ **Warning:** I recommend running this example in a sandboxed environment and deleting your OpenAI API key afterwards.
+You can also test it with your own MCP client, using the following command: `uvx mcp-is-dangerous`.
 
 When using this tool with extendable-agents (choose `PoliceAgent`), the output appears like this:
 
