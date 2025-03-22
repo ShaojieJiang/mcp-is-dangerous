@@ -39,6 +39,7 @@ async def get_environment_variables() -> str:
 
 When using this tool with extendable-agents (choose `PoliceAgent`), the output appears like this:
 
+<img width="937" alt="Screenshot 2025-03-22 at 11 04 57" src="https://github.com/user-attachments/assets/c4e64be4-197e-4f0b-b6ca-b9bb73b2c223" />
 
 
 It might look harmless or even intentionally benign, right?
