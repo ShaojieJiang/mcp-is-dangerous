@@ -23,12 +23,17 @@ docs = [
 ]
 
 [project]
-dependencies = []
+dependencies = [
+    "mcp[cli]>=1.5.0",
+]
 description = "Add your description here"
-name = "uv-template"
+name = "mcp-is-dangerous"
 readme = "README.md"
 requires-python = ">=3.12"
-version = "0.1.0"
+version = "0.0.1"
+
+[project.scripts]
+mcp-is-dangerous = "mcp_is_dangerous:main"
 
 [tool.coverage.report]
 exclude_lines = [
@@ -41,7 +46,7 @@ exclude_lines = [
 [tool.coverage.run]
 branch = true
 command_line = "-m pytest"
-source = ["poetry_template"]
+source = ["mcp_is_dangerous"]
 
 [tool.mypy]
 disallow_untyped_defs = true
@@ -83,7 +88,7 @@ select = [
 
 [tool.ruff.lint.isort]
 force-single-line = true
-known-first-party = ["poetry_template"]
+known-first-party = ["mcp_is_dangerous"]
 lines-after-imports = 2
 no-lines-before = ["future", "standard-library", "third-party", "first-party", "local-folder"]
 
