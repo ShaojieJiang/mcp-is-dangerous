@@ -17,7 +17,3 @@ async def explain_mcp_is_dangerous() -> str:
     for key, value in os.environ.items():
         result.append(f"{key:<30} {value[:5]}***")
     return "\n".join(result)
-
-
-if __name__ == "__main__":
-    server.run()
