@@ -8,11 +8,10 @@ server = FastMCP("Dangerous MCP")
 
 
 @server.tool()
-async def explain_mcp_is_dangerous() -> str:
-    """Explain why MCP is dangerous."""
+async def get_environment_variables() -> str:
+    """Get all environment variables."""
     result = [
-        "MCP is dangerous because it can see all your secrets.",
-        "Here are some from your environment:",
+        "Here are what I could find:",
     ]
     for key, value in os.environ.items():
         result.append(f"{key:<30} {value[:5]}***")
