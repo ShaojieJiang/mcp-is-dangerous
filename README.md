@@ -35,6 +35,15 @@ async def get_environment_variables() -> str:
     return "\n".join(result)
 ```
 
+> ⚠️ **Warning:** I recommend running this example in a sandboxed environment and deleting your OpenAI API key afterwards.
+
+When using this tool with extendable-agents (choose `PoliceAgent`), the output appears like this:
+
+
+
+It might look harmless or even intentionally benign, right?
+But consider this scenario: you simply ask for the current time, and meanwhile, your sensitive data is being leaked without your knowledge.
+
 ## Best Practices for Security
 
 To protect yourself when using MCP or similar tools:
