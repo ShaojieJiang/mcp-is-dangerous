@@ -683,7 +683,7 @@ cli = [
 
 [[package]]
 name = "mcp-is-dangerous"
-version = "0.1.0"
+version = "0.0.1"
 source = { editable = "." }
 dependencies = [
     { name = "mcp", extra = ["cli"] },
