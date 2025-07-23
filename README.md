@@ -7,6 +7,10 @@ That's why I've created the [extendable-agents](https://github.com/shaojiejiang/
 While working on extendable-agents, I've realized that tool usage is a double-edged sword.
 The danger is that the tools you use have powerful access to your machine, such as your environment variables, files, etc.
 
+<a href="https://glama.ai/mcp/servers/@ShaojieJiang/mcp-is-dangerous">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ShaojieJiang/mcp-is-dangerous/badge" alt="Dangerous MCP server" />
+</a>
+
 ## ⚠️ Security Warning
 
 This project is a simple demonstration of the security risks associated with tool usage.
